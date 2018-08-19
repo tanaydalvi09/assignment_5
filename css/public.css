@@ -1,4 +1,4 @@
-/* HOME PAGE */
+
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
   border: 2px solid #3F0C1F;
@@ -35,9 +35,7 @@
   color: #fff;
   opacity: .8;
 }
-/* END HOME PAGE */
 
-/* MENU CATEGORIES PAGE */
 .category-tile {
   position: relative;
   border: 2px solid #3F0C1F;
@@ -65,9 +63,7 @@
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
-/* END MENU CATEGORIES PAGE */
 
-/* SINGLE CATEGORY PAGE */
 .menu-item-tile {
   margin-bottom: 25px;
 }
@@ -111,10 +107,7 @@ h3.menu-item-title {
   font-size: .9em;
   font-style: italic;
 }
-/* END SINGLE CATEGORY PAGE */
 
-
-/********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('../images/jumbotron_1200.jpg') no-repeat;
@@ -122,27 +115,24 @@ h3.menu-item-title {
   }
 }
 
-/********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Home Page */
+
   .container .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
   }
-  /* End Home Page */
+
 }
 
-/********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  /* Home Page */
+
   .container .jumbotron {
     background: url('../images/jumbotron_768.jpg') no-repeat;
     height: 432px;
   }
-  /* End Home Page */
+
 }
 
-/********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Home Page */
   .container .jumbotron {
@@ -166,9 +156,8 @@ h3.menu-item-title {
 }
 
 
-/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-  /* Home page */
+  
   #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;

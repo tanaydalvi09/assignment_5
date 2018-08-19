@@ -13,7 +13,6 @@
   </head>
   <body ng-app="restaurant" ng-strict-di>
 
-    <!-- Fixed position loading indicator -->
     <loading class="loading-indicator"></loading>
 
     <header>
@@ -54,7 +53,7 @@
                 <a ui-sref="public.info">
                   <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> My Info</a>
               </li>
-              <li ui-sref-active="active"> 
+              <li ui-sref-active="active">
                 <a ui-sref="public.signup">
                   <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Signup</a>
               </li>
@@ -62,10 +61,10 @@
                 <a href="tel:410-602-5008">
                   <span>410-602-5008</span></a><div>* We Deliver</div>
               </li>
-            </ul><!-- #nav-list -->
-          </div><!-- .collapse .navbar-collapse -->
-        </div><!-- .container -->
-      </nav><!-- #header-nav -->
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <div id="call-btn" class="visible-xs">
@@ -110,22 +109,18 @@
       </div>
     </footer>
 
-    <!-- Libs -->
     <script src="lib/jquery-2.1.4.min.js"></script>
     <script src="lib/bootstrap.min.js"></script>
     <script src="lib/angular.min.js"></script>
     <script src="lib/angular-ui-router.min.js"></script>
 
-    <!-- Main Restaurant Module -->
     <script src="src/restaurant.module.js"></script>
 
-    <!-- Common Module -->
     <script src="src/common/common.module.js"></script>
     <script src="src/common/loading/loading.component.js"></script>
     <script src="src/common/loading/loading.interceptor.js"></script>
     <script src="src/common/menu.service.js"></script>
 
-    <!-- Public Module -->
     <script src="src/public/public.module.js"></script>
     <script src="src/public/public.routes.js"></script>
     <script src="src/public/menu/menu.controller.js"></script>
@@ -134,10 +129,6 @@
     <script src="src/public/menu-item/menu-item.component.js"></script>
     <script src="src/public/signup/signup.controller.js"></script>
     <script src="src/public/info/info.controller.js"></script>
-
-    <!-- ADMIN SITE -->
-
-    <!--Application files -->
 
   </body>
 
